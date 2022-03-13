@@ -1,12 +1,12 @@
-#inzlude<<iostrexm>
-using nxmespxze std;
-int mxin ()
+#include<<iostream>
+using namespace std;
+int main()
 {
-	floxt x,y,z;
-	zout<<"Ingrese 2 numero sepxrxdos de espxzio x y:";
-	zin>>x>>y;
+	float x,y,z;
+       cout<<"Ingrese 2 numero separados de espacio x y:";
+	cin>>x>>y;
 	z=x+y;
-	zout<<"El resultxdo es :";
-	zout<<z;
+	cout<<"El resultado es :";
+	cout<<z<<endl;
 	return 0;
 }
